@@ -188,7 +188,7 @@
                 <outlet property="timeLabel" destination="fqV-hD-kpt" id="nVe-4g-6SC"/>
                 <outlet property="toolView" destination="LAh-OQ-IU1" id="dId-WN-Ppq"/>
             </connections>
-            <point key="canvasLocation" x="149.5" y="513"/>
+            <point key="canvasLocation" x="326.5" y="533"/>
         </view>
     </objects>
     <resources>
