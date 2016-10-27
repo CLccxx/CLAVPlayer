@@ -12,10 +12,13 @@
 		6BCF03001DC1C29F00A8595D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCF02FF1DC1C29F00A8595D /* ViewController.m */; };
 		6BCF03031DC1C29F00A8595D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCF03011DC1C29F00A8595D /* Main.storyboard */; };
 		6BCF03061DC1C29F00A8595D /* AVPlayerTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BCF03041DC1C29F00A8595D /* AVPlayerTest.xcdatamodeld */; };
-		6BCF03081DC1C29F00A8595D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCF03071DC1C29F00A8595D /* Assets.xcassets */; };
 		6BCF030B1DC1C29F00A8595D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCF03091DC1C29F00A8595D /* LaunchScreen.storyboard */; };
 		6BCF03161DC1C29F00A8595D /* AVPlayerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCF03151DC1C29F00A8595D /* AVPlayerTestTests.m */; };
 		6BCF03211DC1C29F00A8595D /* AVPlayerTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCF03201DC1C29F00A8595D /* AVPlayerTestUITests.m */; };
+		6BCF03301DC1C67600A8595D /* CLAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCF032F1DC1C67600A8595D /* CLAVPlayerView.m */; };
+		6BCF03321DC1C68400A8595D /* CLAVPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BCF03311DC1C68400A8595D /* CLAVPlayerView.xib */; };
+		6BCF03341DC1CE4100A8595D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCF03331DC1CE4100A8595D /* Assets.xcassets */; };
+		6BCF03371DC2297200A8595D /* CLFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCF03361DC2297200A8595D /* CLFullViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,6 @@
 		6BCF02FF1DC1C29F00A8595D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6BCF03021DC1C29F00A8595D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BCF03051DC1C29F00A8595D /* AVPlayerTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AVPlayerTest.xcdatamodel; sourceTree = "<group>"; };
-		6BCF03071DC1C29F00A8595D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BCF030A1DC1C29F00A8595D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BCF030C1DC1C29F00A8595D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BCF03111DC1C29F00A8595D /* AVPlayerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +55,12 @@
 		6BCF031C1DC1C29F00A8595D /* AVPlayerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCF03201DC1C29F00A8595D /* AVPlayerTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerTestUITests.m; sourceTree = "<group>"; };
 		6BCF03221DC1C29F00A8595D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BCF032E1DC1C67600A8595D /* CLAVPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAVPlayerView.h; sourceTree = "<group>"; };
+		6BCF032F1DC1C67600A8595D /* CLAVPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAVPlayerView.m; sourceTree = "<group>"; };
+		6BCF03311DC1C68400A8595D /* CLAVPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLAVPlayerView.xib; sourceTree = "<group>"; };
+		6BCF03331DC1CE4100A8595D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		6BCF03351DC2297200A8595D /* CLFullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFullViewController.h; sourceTree = "<group>"; };
+		6BCF03361DC2297200A8595D /* CLFullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFullViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +115,13 @@
 				6BCF02FC1DC1C29F00A8595D /* AppDelegate.m */,
 				6BCF02FE1DC1C29F00A8595D /* ViewController.h */,
 				6BCF02FF1DC1C29F00A8595D /* ViewController.m */,
+				6BCF032E1DC1C67600A8595D /* CLAVPlayerView.h */,
+				6BCF032F1DC1C67600A8595D /* CLAVPlayerView.m */,
+				6BCF03311DC1C68400A8595D /* CLAVPlayerView.xib */,
+				6BCF03351DC2297200A8595D /* CLFullViewController.h */,
+				6BCF03361DC2297200A8595D /* CLFullViewController.m */,
+				6BCF03331DC1CE4100A8595D /* Assets.xcassets */,
 				6BCF03011DC1C29F00A8595D /* Main.storyboard */,
-				6BCF03071DC1C29F00A8595D /* Assets.xcassets */,
 				6BCF03091DC1C29F00A8595D /* LaunchScreen.storyboard */,
 				6BCF030C1DC1C29F00A8595D /* Info.plist */,
 				6BCF03041DC1C29F00A8595D /* AVPlayerTest.xcdatamodeld */,
@@ -250,7 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BCF030B1DC1C29F00A8595D /* LaunchScreen.storyboard in Resources */,
-				6BCF03081DC1C29F00A8595D /* Assets.xcassets in Resources */,
+				6BCF03321DC1C68400A8595D /* CLAVPlayerView.xib in Resources */,
+				6BCF03341DC1CE4100A8595D /* Assets.xcassets in Resources */,
 				6BCF03031DC1C29F00A8595D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BCF03371DC2297200A8595D /* CLFullViewController.m in Sources */,
 				6BCF03001DC1C29F00A8595D /* ViewController.m in Sources */,
 				6BCF03061DC1C29F00A8595D /* AVPlayerTest.xcdatamodeld in Sources */,
 				6BCF02FD1DC1C29F00A8595D /* AppDelegate.m in Sources */,
+				6BCF03301DC1C67600A8595D /* CLAVPlayerView.m in Sources */,
 				6BCF02FA1DC1C29F00A8595D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
